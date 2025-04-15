@@ -86,41 +86,15 @@ The software uses FreeRTOS for task management with the following main component
 
 The Gas Security System includes custom hardware design for reliability and compact installation.
 
-### PCB Design
+The source code includes detailed hardware design files:
 
-The custom PCB integrates all system components including the ESP32, sensors, and communication modules:
+- PCB design created in EasyEDA (`main/pcb_easyeda.png`)
+- Front view of assembled PCB (`main/pcb_front.jpg`) 
+- Back view of PCB (`main/pcb_back.jpg`)
+- Installation example (`main/Installation.jpg`)
+- Complete electrical schematic (`main/schematic.pdf`)
 
-![PCB Design in EasyEDA](main/pcb_easyeda.png)
-*PCB design created in EasyEDA with component placement and routing*
-
-### PCB Implementation
-
-Front and back view of the manufactured PCB:
-
-<table>
-  <tr>
-    <td><img src="main/pcb_front.jpg" alt="PCB Front View" width="400"/></td>
-    <td><img src="main/pcb_back.jpg" alt="PCB Back View" width="400"/></td>
-  </tr>
-  <tr>
-    <td>Front view of the assembled PCB showing the ESP32, display, and connector layout</td>
-    <td>Back view of the PCB with the SIM800 modem and additional components</td>
-  </tr>
-</table>
-
-### Installation
-
-The system is designed for easy installation in residential or commercial buildings:
-
-![Installation Example](main/Installation.jpg)
-*Example of the gas detector system installed with proper sensor placement*
-
-### Schematic
-
-The complete electrical schematic is available as a PDF:
-
-[View Full Schematic](main/schematic.pdf)
-*Detailed electrical connections and component specifications*
+For detailed descriptions of these files, see the [Hardware Images Documentation](docs/hardware_images.md).
 
 ## License
 
